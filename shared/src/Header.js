@@ -1,11 +1,13 @@
 import React from 'react';
 
-const Footer = () => {
+const Header = ({color}) => {
   return (
-    <footer style={{ padding: '1rem', background: '#333', color: 'white' }}>
-      <p>© 2025 Zeeshan Inc. All rights reserved.</p>
-    </footer>
+    <header
+      
+      style={{ padding: '1rem', background: {color}, color: 'white' }}>
+      <h1>🚀 Common Header</h1>
+    </header>
   );
 };
 
-export default Footer;
+export default Header;
