@@ -1,0 +1,14 @@
+{
+  "name": "common-components",
+  "version": "1.0.0",
+  "description": "Shared Header and Footer for multiple apps",
+  "main": "src/Header.jsx",
+  "type": "module",
+  "keywords": [],
+  "author": "Zeeshan Ahmad",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  }
+}
